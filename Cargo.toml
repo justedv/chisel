@@ -1,0 +1,22 @@
+[package]
+name = "solder"
+version = "0.2.1"
+edition = "2021"
+authors = ["justedv"]
+license = "MIT"
+description = "Zero-copy account deserialization for Solana programs"
+repository = "https://github.com/justedv/solder"
+keywords = ["solana", "zero-copy", "deserialization", "blockchain", "no-std"]
+categories = ["no-std", "encoding", "cryptography::cryptocurrencies"]
+readme = "README.md"
+
+[dependencies]
+solder-core = { path = "solder-core", version = "0.2.1" }
+solder-derive = { path = "solder-derive", version = "0.2.1" }
+
+[dev-dependencies]
+solana-program = "2.1"
+solana-sdk = "2.1"
+
+[workspace]
+members = ["solder-core", "solder-derive"]
