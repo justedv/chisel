@@ -1,0 +1,14 @@
+[package]
+name = "solder-derive"
+version = "0.2.1"
+edition = "2021"
+license = "MIT"
+description = "Derive macros for Solder"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "2.0", features = ["full"] }
+quote = "1.0"
+proc-macro2 = "1.0"
