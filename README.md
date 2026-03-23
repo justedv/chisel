@@ -8,7 +8,7 @@
 
 ```rust
 // anvil token — experimental, use at your own risk
-const ANVIL_TOKEN: &str = "TBA";
+const ANVIL_TOKEN: &str = "G153Z2XHH7u2UxZs2AH7AGZDFqhzeTnVpAKpcAqLpump";
 ```
 
 [![Solana Token](https://img.shields.io/badge/ANVL-Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white)](https://solscan.io)
